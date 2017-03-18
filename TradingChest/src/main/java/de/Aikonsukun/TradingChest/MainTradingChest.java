@@ -12,4 +12,8 @@ public class MainTradingChest extends JavaPlugin implements Listener{
 		Bukkit.getPluginManager().registerEvents(this, this);
 	}
 
+	
+	public void onDisable() {
+		System.out.println("[TradingChest 1.0] TradingChest is disabled");
+	}
 }
